@@ -2,7 +2,6 @@ FROM php:7.4-fpm
 
 # Copy composer.lock and composer.json
 COPY composer.phar /var/
-#COPY ./apt/sources.list /etc/apt/
 
 # Set working directory
 WORKDIR /var/www
